@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.small-img{
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+h1{
+  font-size: 20px;
+}
+
+.box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.big-img{
+  height: 400px;
+}
+
+input{
+  box-shadow: none; 
+  margin-top: 10px; 
+ 
+  
+}
+
+h2{
+  font-size: 30px;
+  padding: 20px;
+  text-align: left;
+}
+
+h3{
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+p{
+  font-size: 16px 
+}
+
+.land{
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://cdn.pixabay.com/photo/2016/04/15/11/48/hotel-1330850_960_720.jpg');
+width: 100vw;
+height: 100vh; 
+background-size: 100% 100%; 
+background-repeat: no-repeat;
+padding-top: 130px;
+padding-right: 50px;
+
+}
+
+/*background-image: url('https://cdn.pixabay.com/photo/2016/04/15/11/48/hotel-1330850_960_720.jpg')*/
