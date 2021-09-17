@@ -71,7 +71,7 @@ const AddRoom = () => {
             placeholder="Room-Guests"
             value={guests}
             onChange={(e) => {
-              setMaxCount(e.target.value);
+              setGuests(e.target.value);
             }}
           />
           <input
