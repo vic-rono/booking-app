@@ -47,7 +47,7 @@ const Login = () => {
               }}
             />
             <input
-              type="text"
+              type="password"
               className="form-control"
               placeholder="password"
               value={password}
